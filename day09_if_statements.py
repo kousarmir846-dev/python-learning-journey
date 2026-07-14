@@ -1,24 +1,18 @@
-age = 17 
-if age >= 18:
-    print("You are an adult.")
+number = int(input("Enter your marks: "))
+if number >= 90:
+    print("A+")
+elif number >= 80:
+    print("A")
+elif number >= 70:
+    print("B") 
+elif number >= 60:
+    print("C")
 else:
-    print("You are not an adult.")
-age = 18 
-if age >= 18:
-    print("You are an adult.")
-    marks = 85
-    if marks >=90:
-        print("You have an A grade.")
-    elif marks >= 80:
-        print("You have a B grade.")
-    else:
-        print("You have a C grade.")
-age = 16
-if age >= 18:
-    print("you can vote.")
-    number = 10
-    if number == 10:
-        print("correct")
-    else:
-        print("wrong")
-        
+    print("Fail")
+age = 15
+
+if age < 18 or age > 60:
+    print("Special")
+else:
+    print("Normal")
+    
